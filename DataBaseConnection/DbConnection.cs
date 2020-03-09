@@ -2,6 +2,10 @@
 
 namespace DataBaseConnection
 {
+    /// <summary>
+    /// Abstract class that only holds the attributes of Connection and Timeout
+    /// with the abstraction of opening and closing the connections. 
+    /// </summary>
     public abstract class DbConnection
     {
         public string ConnectionString { get; set; }
